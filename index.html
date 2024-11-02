@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3e69e82ecb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="name-logo">Sindhu Kasarla</h1>
+                <ul id="sidememu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-con">
+                <div class="header-text">
+                    <p></p>
+                    <h1>Hi, I'm <span>Sindhu Kasarla</span> <br> Full Stack Developer / Web Developer</h1>
+                    <a href="assests/sindhu Kasarla Resume.pdf" download class="btn btn2"> Resume </a>
+                </div>
+                <div class="header-img">
+                    <img src="/assests/header.jpg" alt="">
+                </div>
+            </div>    
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assests/aboutphoto.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a full-stack developer skilled in the MERN stack (MongoDB, Express.js, React.js, Node.js) and proficient in HTML, CSS, JavaScript, and Python. My strengths lie in problem-solving, creating responsive user interfaces, and building scalable backend systems. I am experienced in SEO optimization and backend API development, making me versatile in handling both frontend and backend tasks.
+
+                        I’m a strong communicator, team player, and quick learner, with a dedication to continuous growth in the tech field. I thrive in dynamic environments where I can apply my analytical skills and contribute meaningfully to projects.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Development</span><br><u>Languages:</u> HTML5, CSS3, JavaScript,
+                                TypeScript
+                                <br><u>Frameworks/Libraries:</u> React.js (with Redux), Next.js,
+                                 Bootstrap.
+                            </li>
+                            <li><span>Backend and Full-Stack</span><br><u>Frameworks:</u> Node.js, Express.js
+                                <br><u>Database Management:</u> MongoDB, SQLite, MySQL, MS SQL Server, Oracle
+                                <br><u>Full Stack Proficiency:</u> MERN Stack (MongoDB, Express, React, Node.js)
+                            </li>
+                            <li><span>Development Tools & IDEs</span><br><u>Tools:</u> Visual Studio, Notepad++
+                                <br><u>Debugging:</u> Chrome Developer Tools
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Developer Intern at <i>Homaid</i></span> (April 2024- Sep 2024)<br>
+                                During my internship with HOMAID, I had the opportunity to work in a fast-paced environment, where I contributed to both front-end and back-end development processes. My primary responsibilities included:
+                                <br/>
+                                <p class="s">User Interface Development:</p> I designed and implemented responsive and user-friendly interfaces, focusing on enhancing the user experience and ensuring consistency across various devices and platforms.
+                                <br/>
+                                <p class="s">Backend API Implementation:</p> I developed and integrated backend API endpoints using an SQL database, allowing seamless data flow and optimized database interactions that improved application performance.
+                                <br/>
+                                <p class="s">SEO Optimization:</p> I worked on strategies to enhance website visibility and search engine ranking, focusing on keyword optimization, meta tags, and structured data, which resulted in better organic reach for the application.
+                                <br/>
+                                <p></p><br/>
+                                This hands-on experience honed my skills in full-stack development, improved my understanding of database management, and gave me valuable exposure to SEO best practices, contributing to my overall growth as a software developer.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology </span> - CGPA : 7.0<br>JNTUHUCEM - 2019 - 2023</li>
+                            <li><span>Intermediate Education</span> - Marks : 943<br>SR Junior College - 2017-2019</li>
+                            <li><span>Secondary School Certificate</span> - CGPA : 8.7<br>Singareni Colliries High School - 2016-2017</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End Development</h2>
+                    <p>I specialize in building dynamic and responsive websites using HTML5, CSS3, JavaScript, and
+                        modern frameworks like React.js and Angular. Whether you need a single-page application or a
+                        complex web platform, I can deliver a high-performance solution that meets your business needs
+                        and ensures an exceptional user experience.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I create visually appealing and user-friendly interfaces that enhance user engagement. Utilizing
+                        tools like Adobe Photoshop and Dreamweaver, I design and develop interfaces that are not only
+                        aesthetically pleasing but also intuitive and accessible across all devices.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Full-Stack Development</h2>
+                    <p>Leveraging my full-stack development skills, including proficiency with the MERN stack (MongoDB,
+                        Express, React, Node.js), I can handle both front-end and back-end development to provide a
+                        complete web solution. From database management to server-side scripting, I ensure seamless
+                        integration and optimal performance for your web applications.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- my projects -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="assests/e-commerce.jpg" alt="">
+                    <div class="layer">
+                        <h3>E-commerce</h3>
+                        <p>A website is an online platform where information, products, or services are shared and accessed by users through the internet.</p>
+                        <a href="https://github.com/kasarla-sindhu/Ecommerce" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="/assests/trendz-project.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Restuarant</h3>
+                        <p>A restaurant website is an online hub where customers can view the menu, hours, location, and make reservations or orders.</p>
+                        <a href="https://tren.ccbp.tech/login" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="/assests/tipcal.png" alt="">
+                    <div class="layer">
+                        <h3>Spotify</h3>
+                        <p>Spotify is a music app that allows users to stream, discover, and download millions of songs and podcasts from artists worldwide.</p>
+                        <a href="https://tipcalcicode.ccbp.tech/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="extra-project-list">
+                <div class="project-list">
+                    <div class="project">
+                        <img src="/assests/spotify-project.png" alt="">
+                        <div class="layer">
+                            <h3>E-commerce</h3>
+                            <p>A website is an online platform where information, products, or services are shared and accessed by users through the internet.</p>
+                            <a href="https://spotify-app-9acb19.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="assests/restuarant-project.jpeg" alt="">
+                        <div class="layer">
+                            <h3>Restuarant</h3>
+                            <p>A restaurant website is an online hub where customers can view the menu, hours, location, and make reservations or orders.</p>
+                            <a href="https://restuarantorderpage.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="assests/food-munch-project.jpeg" alt="">
+                        <div class="layer">
+                            <h3>Spotify</h3>
+                            <p>Spotify is a music app that allows users to stream, discover, and download millions of songs and podcasts from artists worldwide.</p>
+                            <a href="https://kasarla-foodapp.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="assests/todo-project.jpeg" alt="">
+                        <div class="layer">
+                            <h3>Spotify</h3>
+                            <p>Spotify is a music app that allows users to stream, discover, and download millions of songs and podcasts from artists worldwide.</p>
+                            <a href="https://todoappcode.ccbp.tech/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <a class="btn" id="seemorebtn" onclick="seemoreprojects()">See more</a>
+        </div>
+    </div>
+    <!--------Contact-------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> sindhukasarla999@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 8008393103</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/kasarla-sindhu" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sindhu-kasarla/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://x.com/idhuReddy1" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>   
+                    </div>
+                    <a href="assests/sindhu kasarla resume.pdf" download class="btn btn2"> Download Resume </a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Sindhu Kasarla. All rights reserved</p>
+        </div>
+    </div>
+    <script>
+        let tablinks = document.getElementsByClassName("tab-links");
+        let tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidememu = document.getElementById('sidememu');
+
+        function openmenu() {
+            sidememu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidememu.style.right = '-200px'
+        }
+    </script>
+    <script>
+        let moreProj=document.querySelector(".extra-project-list")
+        let seemorebtnEl=document.getElementById('seemorebtn')
+        function seemoreprojects(){
+            moreProj.classList.toggle("extra-project-list")
+            moreProj.classList.add("more-project-list")
+            seemorebtnEl.style.display="none"
+        }
+        
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbywvZ_DNUVHZcCRs6hCxV65kp7exl70Jso4xy-YT9OpmQzDfLhYuU6V_bnIxPSsWd9W/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
