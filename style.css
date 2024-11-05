@@ -361,8 +361,11 @@ nav .fas{
     /*#header{
         /*background-image: url(); add image url
     }*/
+    .header-img{
+        display: none;
+    }
     .header-text{
-        margin-top: 100%;
+        margin-top: 60%;
         font-size: 16px;
     }
     .header-text h1{
@@ -426,6 +429,12 @@ nav .fas{
     }
     .copyright{
         font-size: 14px;
+    }
+    .project-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Exactly 3 columns */
+        grid-gap: 40px;
+        margin-top: 50px;
     }
 }
 #msg{
